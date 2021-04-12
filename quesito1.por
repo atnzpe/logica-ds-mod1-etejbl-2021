@@ -25,7 +25,8 @@ programa
 		// armazena o valor digitado, na variavel totalVendasDinheiro
 		comissaoMes = (totalVendasDinheiro/100)*15
 		// declara o valor da variável comissaoMes
-		escreva("O salario fixo para este vendedor é de: R$ ",salarioFixo," e o salário no final do mês será de R$ ",(salarioFixo+comissaoMes))
+		escreva("O salario fixo para este vendedor é de: R$ ",salarioFixo,
+		        " e o salário no final do mês será de R$ ",(salarioFixo+comissaoMes))
 		// Exibe o salário fixo e o salário no final do mês.
 	}
 }
@@ -34,7 +35,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1249; 
+ * @POSICAO-CURSOR = 1136; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
