@@ -16,7 +16,8 @@ programa
 		escreva("Digite o custo para fabricação do carro: ")
 		leia(custoFabrica)
 
-		percentualDistribuidor=custoFabrica*0.25
+		percentualDistribuidor=custoFabrica*0.28
+		impostos=custoFabrica*0.45
 		
 	}
 }
@@ -25,7 +26,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 584; 
+ * @POSICAO-CURSOR = 610; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
