@@ -11,13 +11,16 @@ programa
 	
 	funcao inicio()
 	{
-		real custoFabrica, custoFinalcarro, percentualDistribuidor, impostos
+		real custoFabrica, custoFinalCarro, percentualDistribuidor, impostos
 
 		escreva("Digite o custo para fabricação do carro: ")
 		leia(custoFabrica)
 
 		percentualDistribuidor=custoFabrica*0.28
+		
 		impostos=custoFabrica*0.45
+
+		custoFinalCarro=custoFabrica+percentualDistribuidor+impostos
 		
 	}
 }
@@ -26,7 +29,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 610; 
+ * @POSICAO-CURSOR = 677; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
